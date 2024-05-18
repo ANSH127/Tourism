@@ -21,7 +21,7 @@ const DetailView = () => {
   return (
     <section className="flex flex-col mt-20 items-center justify-center w-full h-full">
       {data && (
-        <div className="flex flex-col items-center  justify-center w-11/12 h-full">
+        <div className="flex flex-col items-center  justify-center w-11/12 sm:w-11/12 md:w-4/5 h-full">
           <img src={data.image} alt={data.title} />
           <h1 className="text-4xl font-bold mt-5">{data.name}</h1>
           <h3 className="text-xl font-semibold mt-4">{data.location}</h3>
