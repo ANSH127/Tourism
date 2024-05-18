@@ -18,7 +18,7 @@ const Details = () => {
       <h1 className="text-3xl sm:text-4xl mb-8 text-center font-bold text-gray-800">
         Discover Latest Events
       </h1>
-      <section className="text-gray-600 body-font w-11/12 sm:w-11/12 md:w-4/5">
+      <section className="text-gray-600 body-font w-11/12 ">
         <div className="">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {eventDetails.map((event, index) => (
